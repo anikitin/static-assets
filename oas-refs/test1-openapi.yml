@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: Spec #1
+  version: "0.1"
+paths:
+  "/test1":
+    post:
+      summary: POST endpoint #1
+      requestBody:
+        content:
+          "application/json":
+             schema:
+               $ref: "#/components/schemas/Schema1RefTo3"
+      responses:
+        "200":
+          description: Success
+          content:
+            "application/json":
+              schema:
+                $ref: "test2-openapi.yml#/components/schemas/Schema2"
+components:
+  schemas:
+
+    Schema1:
+      type: string
+
+    Schema1RefTo3:
+      $ref: "test3-openapi.yml#/components/schemas/Schema3"
