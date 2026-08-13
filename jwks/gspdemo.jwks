@@ -22,7 +22,7 @@
    kty: "RSA",
    n: "6enbqLNlf2zixf3LGkML5Aw3n6vYI8kZON1TJGLUyHIHZE6L2DDAvGhSmIN77XDqoTlmrcWK37188-cdEj3neprOyoOkEUI4l_qls7tjmrfDVLYhMOHJYqVyo6f9nnP8wkJBr2CgNlEkbSU4o2D0I0NwTR0J4ruJlUFLh5XzjifHwrbqHuJlGZCDcFu2WuWs22N_nnP8XfCL3aJvesI5Cr7rPxggnuttKmd2sT5sCWKHfPxemqgOUtwl1bm4q8JrRDTJcpgdeuHaVOyrl-UN-U3zGhE5iyyDaMG5Hn0MRdacuPiQwFb2lickoTPTwOc1X1-rH6fDHVorTqEdFh1dCw",
    e: "AQAB",
-   "kid":"New-2048",
+   "kid":"New-2048"
    }
  ]
 }
